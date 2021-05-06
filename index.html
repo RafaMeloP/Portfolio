@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/6efe3037b0.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/code-solid.ico">
+    <script src="script.js" defer='true'></script>
+    <title>Portifolio</title>
+</head>
+
+<body>
+    <header>
+        <div class="overlay">
+            <h1>
+                < Rafael Melo />
+            </h1>
+            <h4>Portifólio de Projetos</h4>
+            <div class="botoes">
+                <a href="#projetos"><button>Projetos</button></a>
+                <a href="https://github.com/RafaMeloP/" target="_blank"><button>Github</button></a>
+                <a href="#tecnologias"><button>Tecnologias</button></a>
+            </div>
+        </div>
+    </header>
+    <main id="projetos">
+        <h2>Projetos</h2>
+        <div class="filter">
+            <h3>Filtrar por:</h3>
+            <div class="item selected" id="tudo">Tudo</div>
+            <div class="item" id='javascript'>Javascript</div>
+            <div class="item" id='react-js'>React js</div>
+            <div class="item" id='bootstrap'>Bootstrap</div>
+            <div class="item" id='mysql'>My sql</div>
+        </div>
+        <div class="projetos-container"></div>
+    </main>
+    <div class="linha"></div>
+    <footer id="tecnologias">
+        <h2>tecnologias</h2>
+        <div class="tecnologias">
+            <div class="tecnologia">
+                <span class="fab fa-js-square fa-6x"></span>
+                <h3>Javascript</h3>
+            </div>
+            <div class="tecnologia">
+                <span class="fab fa-react fa-6x"></span>
+                <h3>React Js</h3>
+            </div>
+            <div class="tecnologia">
+                <span class="fab fa-html5 fa-6x"></span>
+                <h3>html</h3>
+            </div>
+            <div class="tecnologia">
+                <span class="fab fa-bootstrap fa-6x"></span>
+                <h3>bootstrap</h3>
+            </div>
+            <div class="tecnologia">
+                <span class="fab fa-git-alt fa-6x"></span>
+                <h3>git</h3>
+            </div>
+            <div class="tecnologia">
+                <span class="fas fa-database fa-6x"></span>
+                <h3>my sql</h3>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
