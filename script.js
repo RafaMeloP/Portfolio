@@ -2,9 +2,15 @@
 
 const projetos = [
     {
+        nome: 'Cadastro de pessoas',
+        link: 'http://cadastro-de-funcionarios.herokuapp.com/',
+        tecnologias: ['java', 'spring', 'react-js', 'bootstrap', 'my-sql'],
+        imagem: 'img/cadastroPessoas.png'
+    },
+    {
         nome: 'site advocacia',
         link: 'https://rafamelop.github.io/LandingPage_Advocacia/',
-        tecnologias: ['html', 'css', 'javascript'],
+        tecnologias: ['html', 'css'],
         imagem: 'img/advocacia.png'
     },
     {

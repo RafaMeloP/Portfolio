@@ -185,10 +185,11 @@ main .projetos-container h2{
     top: 20%;
 }
 .projeto .titulo > a i{
-    color:#90EE90;
+    color:#07a107;
+    font-size: 20px;
 }
 .projeto .titulo > a i:hover{
-    color:#4cd64c;
+    color:#055a05;
 }
 .projeto .imagem{
     position: relative;
